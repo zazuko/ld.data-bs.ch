@@ -1,0 +1,20 @@
+{
+  "baseConfig": "trifid:config-sparql.json",
+  "sparqlEndpointUrl": "http://data.zazuko.com/statabs/query",
+  "sparqlEndpointAuthentication": {
+    "user": "env:SPARQL_USER",
+    "password": "env:SPARQL_PASSWORD"
+  },
+  "renderer": {
+    "root": {
+      "template": "cwd:views/index.html",
+      "templateError": "cwd:views/error.html"
+    }
+  },
+  "staticFiles": {
+    "statabsFiles": {
+      "path": "/",
+      "folder": "cwd:public"
+    }
+  }
+}
