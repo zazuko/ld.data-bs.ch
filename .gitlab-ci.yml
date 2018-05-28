@@ -15,5 +15,6 @@ prod:
     - docker push "$CI_REGISTRY_IMAGE"
     - docker tag "$CI_REGISTRY_IMAGE" "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
     - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
+    - wget http://159.100.252.96:9000/hooks/osprojects
   only:
     - tags
