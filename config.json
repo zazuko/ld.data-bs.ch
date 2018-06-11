@@ -1,6 +1,6 @@
 {
   "baseConfig": "trifid:config-sparql.json",
-  "sparqlEndpointUrl": "http://data.zazuko.com/statabs/query",
+  "sparqlEndpointUrl": "https://lindas-data.ch:8443/lindas/query",
   "sparqlEndpointAuthentication": {
     "user": "env:SPARQL_USER",
     "password": "env:SPARQL_PASSWORD"
