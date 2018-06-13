@@ -21,7 +21,7 @@ function embeddedGraph (elementId) {
   })
 }
 
-embeddedGraph('data').then(data => {
+embeddedGraph('data').then(function (data) {
   var features = []
 
   data.forEach(function (subjectData) {
