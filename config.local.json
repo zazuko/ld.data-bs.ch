@@ -1,4 +1,5 @@
 {
   "baseConfig": "cwd:config.json",
-  "datasetBaseUrl": "http://ld.data-bs.ch/"
+  "sparqlEndpointUrl": "http://data.zazuko.com/statabs/query",
+  "datasetBaseUrl": "https://ld.data-bs.ch/"
 }
