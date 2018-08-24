@@ -16,5 +16,10 @@
       "path": "/",
       "folder": "cwd:public"
     }
+  },
+  "yasgui" : {
+    "default": {
+      "template": "cwd:views/yasgui.html"
+    }
   }
 }
