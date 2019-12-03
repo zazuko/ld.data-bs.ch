@@ -22,10 +22,10 @@ ARG COMMIT
 ARG VERSION
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.name="data.admin.ch" \
+      org.label-schema.name="ld.data-bs.ch" \
       org.label-schema.description="Linked Data Pilot" \
-      org.label-schema.url="http://data.admin.ch" \
-      org.label-schema.vcs-url="https://github.com/zazuko/data.admin.ch" \
+      org.label-schema.url="http://ld.data-bs.ch" \
+      org.label-schema.vcs-url="https://github.com/zazuko/ld.data-bs.ch" \
       org.label-schema.vcs-ref=$COMMIT \
       org.label-schema.vendor="Zazuko" \
       org.label-schema.version=$VERSION \
