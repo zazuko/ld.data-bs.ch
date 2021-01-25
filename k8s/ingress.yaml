@@ -7,14 +7,14 @@ metadata:
     external-dns.alpha.kubernetes.io/hostname: ld-data-bs-ch.zazukoians.org
 spec:
   tls:
-  - secretName: ld-data-bs-ch-cert
-    hosts:
-    - ld.data-bs.ch
+    - secretName: ld-data-bs-ch-cert
+      hosts:
+        - ld.data-bs.ch
   rules:
-  - host: ld.data-bs.ch
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: trifid
-          servicePort: 80
+    - host: ld.data-bs.ch
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: trifid
+              servicePort: 80
